@@ -17,7 +17,9 @@ struct ContentView: View {
                     NavigationLink(destination: HTASplashScreen()) {
                         Label("Splash Screen", systemImage: "water.waves")
                     }
-                    
+                    NavigationLink(destination: HTAOnboardingView()) {
+                        Label("Onboarding Screen", systemImage: "questionmark.circle")
+                    }
                 }
                 
                 

@@ -1,7 +1,7 @@
 import SwiftUI
 
 
-struct OnboardingScreen: Identifiable {
+struct _OnboardingScreen: Identifiable {
     let id = UUID()
     let imageName: String
     let title: String
@@ -19,30 +19,30 @@ private func _createSubtitle(base: String, highlighted: String) -> AttributedStr
     return attrString
 }
 
-private let onboardingData: [OnboardingScreen] = [
-    OnboardingScreen(
+private let onboardingData: [_OnboardingScreen] = [
+    _OnboardingScreen(
         imageName: "HTA_onboard1",
         title: "WELCOME TO CELESTIAL HABITS",
         subtitle: _createSubtitle(base: "WE CAN HELP YOU TO BE A BETTER VERSION OF ", highlighted: "YOURSELF.")
     ),
-    OnboardingScreen(
+    _OnboardingScreen(
         imageName: "HTA_onboard2",
         title: "CREATE NEW HABIT EASILY",
         subtitle: _createSubtitle(base: "Set reminders and goals to stay ", highlighted: "CONSISTENT.")
     ),
-    OnboardingScreen(
+    _OnboardingScreen(
         imageName: "HTA_onboard3",
         title: "KEEP TRACK OF YOUR PROGRESS",
         subtitle: _createSubtitle(base: "Track your progress with detailed ", highlighted: "STATS.")
     ),
-    OnboardingScreen(
+    _OnboardingScreen(
         imageName: "HTA_onboard4",
         title: "JOIN A SUPPORTIVE COMMUNITY",
         subtitle: _createSubtitle(base: "Share your journey and get ", highlighted: "MOTIVATED.")
     )
 ]
 
-struct OnboardingView: View {
+struct HTAOnboardingView: View {
     
     @AppStorage("showOnboarding") var showOnboarding = true
     
@@ -112,7 +112,7 @@ struct OnboardingView: View {
 }
 
 struct _SingleOnboardingScreenView: View {
-    let screen: OnboardingScreen
+    let screen: _OnboardingScreen
     
     var body: some View {
         VStack(spacing: 30) {
@@ -138,5 +138,5 @@ struct _SingleOnboardingScreenView: View {
     }
 }
 
-#Preview{ OnboardingView()}
+#Preview{ HTAOnboardingView()}
 
