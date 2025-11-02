@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationStack {
             
             List {
-                Section(header: Text("HTA App").font(.headline)) {
+                Section(header: Text("Daily Habit Tracker App").font(.headline)) {
                     NavigationLink(destination: HTASplashScreen()) {
                         Label("Splash Screen", systemImage: "water.waves")
                     }
