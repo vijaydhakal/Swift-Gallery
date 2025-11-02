@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SplashScreen: View {
+struct HTASplashScreen: View {
     
    var body: some View {
         GeometryReader{ geo in
@@ -17,7 +17,7 @@ struct SplashScreen: View {
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all)
                 VStack {
-                    Text("Welcome to celestial Habit")
+                    Text("Welcome to Celestial Habit")
                         .font(.system(size: 34, weight: .bold))
                         .foregroundColor(.black.opacity(0.8))
                         .multilineTextAlignment(.center)
@@ -32,5 +32,5 @@ struct SplashScreen: View {
 }
 
 #Preview {
-    SplashScreen()
+    HTASplashScreen()
 }

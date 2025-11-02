@@ -7,17 +7,27 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            
+            List {
+                Section(header: Text("HTA App").font(.headline)) {
+                    NavigationLink(destination: HTASplashScreen()) {
+                        Label("Splash Screen", systemImage: "water.waves")
+                    }
+                    
+                }
+                
+                
+            }
+            .listStyle(.insetGrouped)
+            .navigationTitle("Swift Gallery")
         }
-        .padding()
     }
 }
+
 
 #Preview {
     ContentView()
