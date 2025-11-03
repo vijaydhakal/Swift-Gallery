@@ -8,11 +8,6 @@ A collection of app interfaces built with SwiftUI.
 
 ### 1. Daily Habit Tracker
 
-#### Screens Implemented
-* **Home Page** (1 page)
-* **Splash Screen** (1 page)
-* **Onboarding Flow** (4 pages)
-
 #### 📱 Previews
 
 | Home Page | Splash Screen | Onboarding Flow (GIF) |
