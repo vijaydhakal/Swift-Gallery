@@ -16,13 +16,13 @@ A collection of app interfaces built with SwiftUI.
 #### 📱 Previews
 
 **Splash Screen**
-![Habit Tracker Splash Screen](./readme-assets/Habit%20Tracker/splash.png)
+![Habit Tracker Splash Screen](./SwiftGallery/readme-assets/Habit%20Tracker/splash.png)
 
 **Onboarding Flow**
-![Habit Tracker Onboarding Flow](./readme-assets/Habit%20Tracker/onboard.gif)
+![Habit Tracker Onboarding Flow](./SwiftGallery/readme-assets/Habit%20Tracker/onboard.gif)
 
 **Home Page**
-![Habit Tracker Home Page](./readme-assets/Habit%20Tracker/home%20page.png)
+![Habit Tracker Home Page](./SwiftGallery/readme-assets/Habit%20Tracker/home%20page.png)
 
 ---
 

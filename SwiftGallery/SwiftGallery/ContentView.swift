@@ -20,6 +20,9 @@ struct ContentView: View {
                     NavigationLink(destination: HTAOnboardingView()) {
                         Label("Onboarding Screen", systemImage: "questionmark.circle")
                     }
+                    NavigationLink(destination: SignUpView()) {
+                        Label("SignUp Screen", systemImage: "lock.circle")
+                    }
                 }
                 
                 
