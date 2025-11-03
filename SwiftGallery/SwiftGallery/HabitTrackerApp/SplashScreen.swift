@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HTASplashScreen: View {
+struct SplashScreen: View {
     
    var body: some View {
         GeometryReader{ geo in
@@ -32,5 +32,5 @@ struct HTASplashScreen: View {
 }
 
 #Preview {
-    HTASplashScreen()
+    SplashScreen()
 }

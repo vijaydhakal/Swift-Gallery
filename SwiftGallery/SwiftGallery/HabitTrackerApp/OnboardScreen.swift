@@ -42,7 +42,7 @@ private let onboardingData: [_OnboardingScreen] = [
     )
 ]
 
-struct HTAOnboardingView: View {
+struct OnboardingView: View {
     
     @AppStorage("showOnboarding") var showOnboarding = true
     
@@ -138,5 +138,5 @@ struct _SingleOnboardingScreenView: View {
     }
 }
 
-#Preview{ HTAOnboardingView()}
+#Preview{ OnboardingView()}
 

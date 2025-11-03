@@ -14,14 +14,20 @@ struct ContentView: View {
             
             List {
                 Section(header: Text("Daily Habit Tracker App").font(.headline)) {
-                    NavigationLink(destination: HTASplashScreen()) {
+                    NavigationLink(destination: SplashScreen()) {
                         Label("Splash Screen", systemImage: "water.waves")
                     }
-                    NavigationLink(destination: HTAOnboardingView()) {
+                    NavigationLink(destination: OnboardingView()) {
                         Label("Onboarding Screen", systemImage: "questionmark.circle")
                     }
                     NavigationLink(destination: SignUpView()) {
                         Label("SignUp Screen", systemImage: "lock.circle")
+                    }
+                    NavigationLink(destination: LoginView()) {
+                        Label("Login Screen", systemImage: "lock.circle")
+                    }
+                    NavigationLink(destination: ForgotPasswordView()) {
+                        Label("Forgot Password Screen", systemImage: "lock.circle")
                     }
                 }
                 
