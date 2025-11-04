@@ -30,7 +30,7 @@ struct SignUpView: View {
                         .scaledToFit()
                         .frame(width: 120, height: 120)
                         .padding(.top, 24)
-
+                    
                     Text("CREATE YOUR ACCOUNT")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -84,7 +84,7 @@ struct SignUpView: View {
                     .padding()
                     .background(Color(uiColor: .secondarySystemBackground))
                     .cornerRadius(12)
-
+                    
                     Button(action: { keepSignedIn.toggle() }) {
                         HStack {
                             Image(systemName: keepSignedIn ? "checkmark.square.fill" : "square")
@@ -114,7 +114,7 @@ struct SignUpView: View {
                             Spacer()
                         }
                     }
-
+                    
                     Button(action: { print("Create Account") }) {
                         Text("Create Account")
                             .font(.headline)

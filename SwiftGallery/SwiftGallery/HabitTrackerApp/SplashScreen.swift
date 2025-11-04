@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SplashScreen: View {
     
-   var body: some View {
+    var body: some View {
         GeometryReader{ geo in
             ZStack {
                 Image("HTA_Splash_Screen")

@@ -17,7 +17,7 @@ struct LoginView: View {
         ZStack {
             Color(uiColor: .systemBackground)
                 .ignoresSafeArea()
-
+            
             ScrollView {
                 VStack(spacing: 20) {
                     Image("login_page")
@@ -26,7 +26,7 @@ struct LoginView: View {
                         .frame(width: 150)
                         .padding(.top, 24)
                         .padding(.bottom, 20)
-                        
+                    
                     VStack(spacing: 16) {
                         Button(action: { print("Google login") }) {
                             HStack {
@@ -68,7 +68,7 @@ struct LoginView: View {
                         Image(systemName: "envelope")
                             .foregroundColor(Color(red: 138/255, green: 109/255, blue: 90/255))
                             .frame(width: 20)
-                            
+                        
                         TextField("Email", text: $email)
                             .keyboardType(.emailAddress)
                             .autocapitalization(.none)
@@ -81,7 +81,7 @@ struct LoginView: View {
                         Image(systemName: "lock")
                             .foregroundColor(Color(red: 138/255, green: 109/255, blue: 90/255))
                             .frame(width: 20)
-                            
+                        
                         if isPasswordVisible {
                             TextField("Password", text: $password)
                         } else {
@@ -100,7 +100,7 @@ struct LoginView: View {
                     .padding()
                     .background(Color(uiColor: .secondarySystemBackground))
                     .cornerRadius(12)
-
+                    
                     HStack {
                         Spacer()
                         Button(action: { print("Forgot Password tapped") }) {
