@@ -29,6 +29,9 @@ struct ContentView: View {
                     NavigationLink(destination: ForgotPasswordView()) {
                         Label("Forgot Password Screen", systemImage: "lock.circle")
                     }
+                    NavigationLink(destination: HomePageView()) {
+                        Label("Home Screen", systemImage: "lock.circle")
+                    }
                 }
                 
                 
