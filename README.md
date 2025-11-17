@@ -34,7 +34,7 @@ A collection of app interfaces built with SwiftUI.
 
 | Screen Recording (Click to Play) | Home Page Menu (Light) | Home Page Menu (Dark) |
 | :---: | :---: | :---: |
-| [![Screen Recording Preview](./readme-assets/Fitness/home_dark.png)](./readme-assets/Fitness/fitness_screen_record.MP4) | ![Home Page Menu](./readme-assets/Fitness/home_menu_lightmode.png) | ![Home Page Menu](./readme-assets/Fitness/menu_longtab.png) |
+| [![Screen Recording Preview](./readme-assets/Fitness/dynamic_navigation_title.png)](./readme-assets/Fitness/fitness_screen_record.MP4) | ![Home Page Menu](./readme-assets/Fitness/home_menu_lightmode.png) | ![Home Page Menu](./readme-assets/Fitness/menu_longtab.png) |
 
 #### 🚀 Presentation
 
