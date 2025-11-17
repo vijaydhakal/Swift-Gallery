@@ -31,7 +31,7 @@ struct TrendsView: View {
                     .font(.system(size: 60))
                     .foregroundColor(accentGreen)
                 
-                Rectangle() // This is the line under the icon
+                Rectangle()
                     .frame(height: 2)
                     .foregroundColor(accentGreen)
                     .padding(.horizontal, 60)
@@ -66,7 +66,6 @@ struct TrendsView: View {
             }
             
             Button {
-                // Add share action here
                 print("Share")
             } label: {
                 Label("Share", systemImage: "square.and.arrow.up")

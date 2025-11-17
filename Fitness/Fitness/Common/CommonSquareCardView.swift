@@ -29,9 +29,7 @@ struct CommonSquareCardView<Content: View>: View {
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
-            
             contentView
-            
             
         }
         .padding()

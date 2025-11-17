@@ -26,13 +26,13 @@ struct RingView: View {
                     style: StrokeStyle(lineWidth: lineWidth, lineCap: .round)
                 )
                 .rotationEffect(.degrees(-90))
-            if animatedProgress > 0.01 && animatedProgress < 1.0 { // <-- Changed
+            if animatedProgress > 0.01 && animatedProgress < 1.0 {
                 Image(systemName: "arrow.forward")
                     .font(.system(size: lineWidth * 0.35, weight: .bold))
                     .foregroundColor(Color(UIColor.systemBackground))
                     .frame(width: lineWidth, height: lineWidth)
                     .offset(y: -size / 2)
-                    .rotationEffect(.degrees(min(animatedProgress, 1.0) * 360)) // <-- Changed
+                    .rotationEffect(.degrees(min(animatedProgress, 1.0) * 360))
             }
         }
         .frame(width: size, height: size)

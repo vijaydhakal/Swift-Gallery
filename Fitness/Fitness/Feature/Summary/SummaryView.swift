@@ -1,7 +1,6 @@
 import SwiftUI
 
 
-// This view represents the main "Summary" screen content
 struct SummaryView: View {
     
     @State private var showTitle = false
@@ -65,13 +64,13 @@ struct SummaryView: View {
                     LazyVGrid(columns: columns, spacing: 16) {
                         StatCardView(
                             title: "Step Count",
-                            value: "2.537", // Updated value
+                            value: "2.537",
                             color: .purple,
                             graphType: .bar
                         )
                         StatCardView(
                             title: "Step Distance",
-                            value: "1,60KM", // Updated value
+                            value: "1,60KM",
                             color: .blue,
                             graphType: .bar
                         )
@@ -89,7 +88,6 @@ struct SummaryView: View {
                 }
                 .padding(.top)
             }
-            .coordinateSpace(name: "scroll")
             .navigationBarHidden(!showTitle)
             .navigationTitle( "Summary" )
             .navigationSubtitle("Wednesday, 12 Nov")

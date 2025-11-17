@@ -26,33 +26,30 @@ struct TrendsBottomSheetView: View {
                     .font(.title2)
                     .fontWeight(.bold)
                     .foregroundColor(.white)
-                Text("Closing your rings every day is a great way to stay active. Trend arrows help you stay motivated by showing even more details. If you're moving the same amount or more over the last 90 days compared to the last 365, your Move arrow will be up. Closing your rings and keeping track of your arrows helps you be active and stay active!")
-                    .font(.body)
-                    .fontWeight(.medium)
-                    .foregroundColor(.secondary)
-                    .multilineTextAlignment(.center)
-                
-                
-                Spacer()
-                
-                Button(action: {
-                    dismiss()
-                }) {
-                    Text("OK")
-                        .font(.headline)
-                        .fontWeight(.semibold)
-                        .frame(maxWidth: .infinity) // Make it full-width
-                        .padding()
-                        .background(Color.gray.opacity(0.35))
-                        .foregroundColor(.white)
-                        .cornerRadius(14)
+                ScrollView {
+                    Text("Closing your rings every day is a great way to stay active. Trend arrows help you stay motivated by showing even more details. If you're moving the same amount or more over the last 90 days compared to the last 365, your Move arrow will be up. Closing your rings and keeping track of your arrows helps you be active and stay active! Closing your rings every day is a great way to stay active. Trend arrows help you stay motivated by showing even more details. If you're moving the same amount or more over the last 90 days compared to the last 365, your Move arrow will be up. Closing your rings and keeping track of your arrows helps you be active and stay active! Closing your rings every day is a great way to stay active. Trend arrows help you stay motivated by showing even more details. If you're moving the same amount or more over the last 90 days compared to the last 365, your Move arrow will be up. Closing your rings and keeping track of your arrows helps you be active and stay active! Closing your rings every day is a great way to stay active. Trend arrows help you stay motivated by showing even more details. If you're moving the same amount or more over the last 90 days compared to the last 365, your Move arrow will be up. Closing your rings and keeping track of your arrows helps you be active and stay active! Closing your rings every day is a great way to stay active. Trend arrows help you stay motivated by showing even more details. If you're moving the same amount or more over the last 90 days compared to the last 365, your Move arrow will be up. Closing your rings and keeping track of your arrows helps you be active and stay active!")
+                        .font(.body)
+                        .fontWeight(.medium)
+                        .foregroundColor(.secondary)
+                        .multilineTextAlignment(.center)
                 }
-                
             }
             .padding(.horizontal, 30)
-            .padding(.bottom, 20)
         }
         .preferredColorScheme(.dark)
+        Button(action: {
+            dismiss()
+        }) {
+            Text("OK")
+                .font(.headline)
+                .fontWeight(.semibold)
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(Color.gray.opacity(0.35))
+                .foregroundColor(.white)
+                .cornerRadius(14)
+        } .padding(.horizontal, 30)
+            .padding(.bottom, 20)
     }
 }
 

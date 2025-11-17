@@ -16,13 +16,13 @@ struct DashboardView: View {
                     Text("Summary")
                 }
             
-            Text("Workout Screen")
+            WorkoutView()
                 .tabItem {
                     Image(systemName: "figure.run")
                     Text("Workout")
                 }
             
-            Text("Sharing Screen")
+            SharingView()
                 .tabItem {
                     Image(systemName: "person.2.fill")
                     Text("Sharing")
