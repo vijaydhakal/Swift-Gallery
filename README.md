@@ -20,6 +20,25 @@ A collection of app interfaces built with SwiftUI.
 
 ---
 
+### 2. Fitness Clone IOS
+
+#### 📱 Previews
+
+| Home Page (Dark) | Trends Screen | Trends Animation (GIF) |
+| :---: | :---: | :---: |
+| ![Fitness Home Page Dark](./readme-assets/Fitness/home_dark.png) | ![Fitness Trends Screen](./readme-assets/Fitness/lottie_animation.png) | ![Fitness Trends Animation](./readme-assets/Fitness/lottie_animation.gif) |
+
+| Workout Page | Home Page (Light) | Sharing Page |
+| :---: | :---: | :---: |
+| ![Fitness Workout Page](./readme-assets/Fitness/workout_dark.png) | ![Fitness Home Page Light](./readme-assets/Fitness/home_light.png) | ![Fitness Sharing Page](./readme-assets/Fitness/sharing_dark.png) |
+
+#### 🚀 Presentation
+
+[View Project Presentation](./readme-assets/Fitness/fitness_app_presentation)
+
+---
+---
+
 ## 🛠️ Technology Stack
 
 * SwiftUI
@@ -36,3 +55,5 @@ A collection of app interfaces built with SwiftUI.
     Open the `SwiftGallery.xcodeproj` file.
 3.  **Run the App**
     Select an iOS Simulator and press **Run** (`Cmd + R`).
+
+
